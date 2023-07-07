@@ -1,0 +1,91 @@
+.box {
+    width: 500px;
+    height: 630px;
+    margin: 20px auto;
+    background-color: aqua;
+    box-shadow: rgba(223, 71, 71, 0.527) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.box>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.text {
+
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box figcaption {
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    left: 40%;
+}
+
+.box figcaption1 {
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    left: 46%;
+}
+
+.box figcaption2 {
+    position: absolute;
+    top: 44%;
+    bottom: 50%;
+    left: 35%;
+}
+
+.box figcaption3 {
+    position: absolute;
+    top: 60%;
+    bottom: 50%;
+    left: 45%;
+}
+.box h1{
+    position: absolute;
+    font-size: 60px;
+    top: -5%;
+    bottom: 50%;
+    left: 36%;
+    font-size: 600%;
+    font-family:Caprasimo ;
+    color: rgba(221, 208, 18, 0.89);
+}
+@font-face {
+    font-family:BagelFatOne;
+    src: url(fonts/BagelFatOne-Regular.ttf);
+}
+@font-face {
+    font-family:Caprasimo;
+    src: url(fonts/Caprasimo-Regular.ttf);
+}
+figcaption3{
+    font-size: 150%;
+    font-family:Caprasimo ;
+    color: rgb(221, 16, 16);
+}
+figcaption2{
+    font-size: 150%;
+    font-family:BagelFatOne ;
+    color: rgba(27, 206, 51, 0.89);
+}
+figcaption1{
+    font-size: 150%;
+    font-family:BagelFatOne ;
+    color: rgb(221, 16, 16);
+}
+figcaption{
+    font-size: 150%;
+    font-family:Caprasimo ;
+    color: rgba(27, 206, 51, 0.89);
+}
+span{
+    font-size: 300%;
+}
